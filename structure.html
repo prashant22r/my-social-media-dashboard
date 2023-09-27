@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <title>SOCIALMEDIA-DASHBOARD</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <i class="menu-btn fas fa-bars"></i>
+            <h2 class="logo"> My Social Tracker</h2>
+        </div>
+        <div class="nav-right">
+            <div class="search">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="search....">
+            </div>
+            <div class="notification">
+                <a href="#"><i class="fas fa-bell" style="color: black;"></i></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="download.jpg" alt="profile" class="profile-image">
+                <h2>Jordan</h2>
+                <p>content creator</p>
+            </div>
+            <div class="menu">
+                <div class="menu-detail menu-active">
+                    <a href="#">
+                        <i class="fas fa-chart-pie menu-icon"></i><span>Dashboard</span>
+                    </a>
+                </div>        
+                        
+                <div class="menu-detail">
+                    <a href="#">
+                        <i class="fas fa-gifts menu-icon"></i><span>Campaign</span>
+                    </a>
+                </div>        
+                <div class="menu-detail">
+                    <a href="#">
+                        <i class="fas fa-headset menu-icon"></i><span>Support Centre</span>
+                    </a>
+                </div>    
+                <div class="menu-detail">
+                    <a href="#">
+                        <i class="fas fa-user-secret menu-icon"></i><span>Security</span>
+
+                    </a>
+                </div>
+                <div class="menu-detail">
+                    <a href="#">
+                        <i class="fas fa-cog menu-icon"></i><span>Settings</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <!-- left -->
+            <div class="left-container">
+                <div class="wrapper">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <i class="fab fa-instagram social-icon"></i>
+                            <h1 class="count">3.4M</h1>
+                            <small>Followers</small>
+                            <div class="Dropdown">
+                                <button class="btn btn-more">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                                <div class="Dropdown-content">
+                                    <a href="#">Details</a>
+                                    <a href="#">Download</a>
+                                    <a href="#">Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <i class="fab fa-youtube social-icon"></i>
+                            <h1 class="count">510K</h1>
+                            <small>Subscribers</small>
+                            <div class="Dropdown">
+                                <button class="btn btn-more">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                                <div class="Dropdown-content">
+                                    <a href="#">Details</a>
+                                    <a href="#">Download</a>
+                                    <a href="#">Share</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <i class="fab fa-facebook-f social-icon"></i>
+                            <h1 class="count">287K</h1>
+                            <small>Followers</small>
+                            <div class="Dropdown">
+                                <button class="btn btn-more">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                                <div class="Dropdown-content">
+                                    <a href="#">Details</a>
+                                    <a href="#">Download</a>
+                                    <a href="#">Share</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <i class="fab fa-twitter social-icon"></i>
+                            <h1 class="count">17.8M</h1>
+                            <small>Followers</small>
+                            <div class="Dropdown">
+                                <button class="btn btn-more">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                                <div class="Dropdown-content">
+                                    <a href="#">Details</a>
+                                    <a href="#">Download</a>
+                                    <a href="#">Share</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="wrapper">
+                    <div class="card">
+                        <div class="title-wrapper">
+                            <h2 class="title">Trend Data</h2>
+                            <div class="filter">
+                                <a class="active" href="#">Day</a>
+                                <a href="# ">Week</a>
+                                <a href="#">Month</a>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <div id="chLine"></div>
+                            <img src="gr-1.webp" alt="Graph" class="graph">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right -->
+            <div class="right-container">
+
+            </div>
+            <!-- bottom -->
+            <div class="bottom-container">
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="final.js"></script>
+</html>
