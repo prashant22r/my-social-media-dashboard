@@ -11,7 +11,7 @@
 body{
     width:fit-content;
     max-width: 1500px;
-    background-image: url(vivid-blurred-colorful-wallpaper-background_58702-3440.avif);
+    background-image: url(img/vivid-blurred-colorful-wallpaper-background_58702-3440.avif);
     background-repeat: no-repeat;
     background-size: cover;
     color:var(--fontColor)
@@ -85,7 +85,7 @@ body{
     left: 1rem;
     z-index: 1;
    width: 80px;
-   height:100px:
+   height:100px;
 
 }
 
