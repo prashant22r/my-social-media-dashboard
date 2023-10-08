@@ -325,6 +325,15 @@ body{
     margin-bottom: 1rem;
 }
 
+.right-container img{
+    height:400px;
+    width:900px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
 
 
 
