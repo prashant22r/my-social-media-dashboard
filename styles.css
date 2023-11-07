@@ -13,8 +13,12 @@ body {
 .login-box {
     width: 300px;
     padding: 40px;
+<<<<<<< HEAD
     background:transparent;
     backdrop-filter:blur(15px);
+=======
+    background: #fff;
+>>>>>>> 19adbd5ebb8795c99e940520900159601d3783ad
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -57,4 +61,8 @@ body {
 
 .btn:hover {
     background:aqua ;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 19adbd5ebb8795c99e940520900159601d3783ad
